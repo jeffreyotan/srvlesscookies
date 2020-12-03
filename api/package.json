@@ -1,0 +1,16 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "A serverless JavaScript API Markup (JAM) program",
+  "main": "cookie.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeffrey Tan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fortune-cookie": "file:node_modules/fortune-cookie",
+    "morgan": "^1.10.0"
+  }
+}
