@@ -17,7 +17,7 @@ export class CookieService {
         // return this.http.get<CookieText>(queryString).toPromise();
 
         const params = (new HttpParams()).set('count', `${n}`);
-        console.info('=> params: ', params);
+        // console.info('=> params: ', params);
 
         // GET /api/cookie?count=n
         const resp = await this.http.get<any>(this.queryUrl, { params }).toPromise();
